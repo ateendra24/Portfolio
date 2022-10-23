@@ -1,0 +1,84 @@
+@media (max-width:1100px) {
+    .home_left img{
+        width: 300px;
+        height: 300px;
+    }
+    .project{
+        width: 126px;
+        height: 76.5px;
+        margin: 10px;
+        box-shadow: 5px 5px 0px;
+    }
+    .projects_content{
+        margin-left: 60px;
+    }
+    .projects_heading,.about_heading,.contact_me_heading,.qualification_heading{
+        font-size: 35px;
+    }
+    .home_right .home_name{
+        font-size: 40px;
+    }
+    .home_buttons {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .resume,.contact {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+    transition: color 0.3s ease;
+    }
+    .about_content{
+     font-size: 16px;
+     padding: 20px;
+     line-height: 22px;
+    }
+}
+
+@media (max-width:450px) {
+    .home_left img{
+        width: 200px;
+        height: 200px;
+    }
+    .project{
+        width: 136px;
+        height: 76.5px;
+        margin: 10px;
+        box-shadow: 5px 5px 0px;
+    }
+    .project_content{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:553px) {
+    .side_menu {
+        position: fixed;
+        top:auto;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 5px;
+        height: 50px;
+        width: calc(100vw - 3%);
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        border-radius: 50px;
+        
+    }
+    .side_menu a{
+        margin: 5px;
+    }
+    .projects_content,.qualification_content,.about_content,.contact_me_content{
+        margin-left: 0px;
+        overflow: scroll;
+    }
+    .about_content {
+        border-radius: 0px 50px;
+    }
+    
+}
